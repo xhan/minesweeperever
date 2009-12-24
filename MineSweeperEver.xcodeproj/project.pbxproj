@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MineSweeperEverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MineSweeperEverAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		711D676910C8F57700AB5B9B /* snip.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 711D676810C8F57700AB5B9B /* snip.m4v */; };
+		7133B74A10CE3B58005953C1 /* GameStageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7133B74910CE3B58005953C1 /* GameStageViewController.xib */; };
+		7133B76B10CE438D005953C1 /* cell_bomb_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 7133B76410CE438C005953C1 /* cell_bomb_error.png */; };
+		7133B76C10CE438D005953C1 /* cell_bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7133B76510CE438C005953C1 /* cell_bomb.png */; };
+		7133B76D10CE438D005953C1 /* cell_digged.png in Resources */ = {isa = PBXBuildFile; fileRef = 7133B76610CE438C005953C1 /* cell_digged.png */; };
+		7133B76F10CE438D005953C1 /* cell_flag_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 7133B76810CE438D005953C1 /* cell_flag_error.png */; };
+		7133B77010CE438D005953C1 /* cell_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 7133B76910CE438D005953C1 /* cell_flag.png */; };
+		7133B77110CE438D005953C1 /* cell_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7133B76A10CE438D005953C1 /* cell_normal.png */; };
+		7133B8C010CE8FA0005953C1 /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7133B8BE10CE8FA0005953C1 /* HighScoreViewController.m */; };
+		7133B8C110CE8FA0005953C1 /* HighScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7133B8BF10CE8FA0005953C1 /* HighScoreViewController.xib */; };
+		7133B90510CEA0F0005953C1 /* default.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7133B90410CEA0F0005953C1 /* default.plist */; };
+		717B15A610C7747500DFB011 /* OpenMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717B15A510C7747500DFB011 /* OpenMovieViewController.m */; };
+		717B15A810C774CC00DFB011 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717B15A710C774CC00DFB011 /* MediaPlayer.framework */; };
+		717B15AE10C7753A00DFB011 /* NewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717B15AC10C7753A00DFB011 /* NewGameViewController.m */; };
+		717B15AF10C7753A00DFB011 /* NewGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717B15AD10C7753A00DFB011 /* NewGameViewController.xib */; };
+		717B15EC10C79C7900DFB011 /* GameStageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717B15EB10C79C7900DFB011 /* GameStageViewController.m */; };
+		717B161B10C79F6600DFB011 /* MineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 717B161A10C79F6600DFB011 /* MineCell.m */; };
+		717B162910C79FCB00DFB011 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 717B162710C79FCB00DFB011 /* UIViewAdditions.m */; };
+		717DFA8F10C7FF8B00F08EA3 /* mineSweeperIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 717DFA8E10C7FF8B00F08EA3 /* mineSweeperIcon57.png */; };
+		717DFAED10C8208900F08EA3 /* StorageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 717DFAEC10C8208900F08EA3 /* StorageCenter.m */; };
+		718F37BE10CCB2EB00924BBB /* GTMRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 718F37B910CCB2EB00924BBB /* GTMRegex.m */; };
+		7195400210CFC4B000B25682 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7195400110CFC4B000B25682 /* AddressBook.framework */; };
+		7195400410CFC4B000B25682 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7195400310CFC4B000B25682 /* AudioToolbox.framework */; };
+		7195400610CFC4B000B25682 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7195400510CFC4B000B25682 /* CoreLocation.framework */; };
+		7195400810CFC4B000B25682 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7195400710CFC4B000B25682 /* QuartzCore.framework */; };
+		7195406210CFC8CE00B25682 /* libAdMobDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7195406010CFC8CE00B25682 /* libAdMobDevice.a */; };
+		7195406310CFC8CE00B25682 /* libAdMobSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7195406110CFC8CE00B25682 /* libAdMobSimulator.a */; };
+		7195407910CFCB6400B25682 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7195407810CFCB6400B25682 /* MessageUI.framework */; };
+		7195419310CFEB9700B25682 /* NewRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7195419110CFEB9700B25682 /* NewRecordViewController.m */; };
+		7195419410CFEB9700B25682 /* NewRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7195419210CFEB9700B25682 /* NewRecordViewController.xib */; };
+		71F8E82F10E3B2B300E5F24F /* segment_tools.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F8E82E10E3B2B300E5F24F /* segment_tools.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MineSweeperEverAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineSweeperEverAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MineSweeperEverAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineSweeperEverAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MineSweeperEver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeperEver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MineSweeperEver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineSweeperEver_Prefix.pch; sourceTree = "<group>"; };
+		711D676810C8F57700AB5B9B /* snip.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = snip.m4v; path = Resource/snip.m4v; sourceTree = "<group>"; };
+		7133B74910CE3B58005953C1 /* GameStageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameStageViewController.xib; sourceTree = "<group>"; };
+		7133B76410CE438C005953C1 /* cell_bomb_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_bomb_error.png; path = Resource/cell_bomb_error.png; sourceTree = "<group>"; };
+		7133B76510CE438C005953C1 /* cell_bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_bomb.png; path = Resource/cell_bomb.png; sourceTree = "<group>"; };
+		7133B76610CE438C005953C1 /* cell_digged.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_digged.png; path = Resource/cell_digged.png; sourceTree = "<group>"; };
+		7133B76810CE438D005953C1 /* cell_flag_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_flag_error.png; path = Resource/cell_flag_error.png; sourceTree = "<group>"; };
+		7133B76910CE438D005953C1 /* cell_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_flag.png; path = Resource/cell_flag.png; sourceTree = "<group>"; };
+		7133B76A10CE438D005953C1 /* cell_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_normal.png; path = Resource/cell_normal.png; sourceTree = "<group>"; };
+		7133B8BD10CE8FA0005953C1 /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreViewController.h; sourceTree = "<group>"; };
+		7133B8BE10CE8FA0005953C1 /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreViewController.m; sourceTree = "<group>"; };
+		7133B8BF10CE8FA0005953C1 /* HighScoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HighScoreViewController.xib; path = Classes/HighScoreViewController.xib; sourceTree = "<group>"; };
+		7133B90410CEA0F0005953C1 /* default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = default.plist; sourceTree = "<group>"; };
+		717B15A410C7747500DFB011 /* OpenMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenMovieViewController.h; sourceTree = "<group>"; };
+		717B15A510C7747500DFB011 /* OpenMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenMovieViewController.m; sourceTree = "<group>"; };
+		717B15A710C774CC00DFB011 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		717B15AB10C7753A00DFB011 /* NewGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameViewController.h; sourceTree = "<group>"; };
+		717B15AC10C7753A00DFB011 /* NewGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameViewController.m; sourceTree = "<group>"; };
+		717B15AD10C7753A00DFB011 /* NewGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewGameViewController.xib; path = Classes/NewGameViewController.xib; sourceTree = "<group>"; };
+		717B15EA10C79C7900DFB011 /* GameStageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStageViewController.h; sourceTree = "<group>"; };
+		717B15EB10C79C7900DFB011 /* GameStageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStageViewController.m; sourceTree = "<group>"; };
+		717B161910C79F6600DFB011 /* MineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineCell.h; sourceTree = "<group>"; };
+		717B161A10C79F6600DFB011 /* MineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineCell.m; sourceTree = "<group>"; };
+		717B162610C79FCB00DFB011 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		717B162710C79FCB00DFB011 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		717B162810C79FCB00DFB011 /* UIKITAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKITAddition.h; sourceTree = "<group>"; };
+		717DFA8E10C7FF8B00F08EA3 /* mineSweeperIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mineSweeperIcon57.png; path = Resource/mineSweeperIcon57.png; sourceTree = "<group>"; };
+		717DFAEB10C8208900F08EA3 /* StorageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageCenter.h; sourceTree = "<group>"; };
+		717DFAEC10C8208900F08EA3 /* StorageCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageCenter.m; sourceTree = "<group>"; };
+		718F37B710CCB2EB00924BBB /* GTMObjectSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjectSingleton.h; sourceTree = "<group>"; };
+		718F37B810CCB2EB00924BBB /* GTMRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMRegex.h; sourceTree = "<group>"; };
+		718F37B910CCB2EB00924BBB /* GTMRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMRegex.m; sourceTree = "<group>"; };
+		718F37BA10CCB2EB00924BBB /* GTM_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTM_Prefix.pch; sourceTree = "<group>"; };
+		718F37BB10CCB2EB00924BBB /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		71953FF110CFC45C00B25682 /* AdMobDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobDelegateProtocol.h; sourceTree = "<group>"; };
+		71953FF210CFC45C00B25682 /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobView.h; sourceTree = "<group>"; };
+		7195400110CFC4B000B25682 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		7195400310CFC4B000B25682 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7195400510CFC4B000B25682 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7195400710CFC4B000B25682 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7195406010CFC8CE00B25682 /* libAdMobDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobDevice.a; sourceTree = "<group>"; };
+		7195406110CFC8CE00B25682 /* libAdMobSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobSimulator.a; sourceTree = "<group>"; };
+		7195407810CFCB6400B25682 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7195419010CFEB9700B25682 /* NewRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRecordViewController.h; sourceTree = "<group>"; };
+		7195419110CFEB9700B25682 /* NewRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRecordViewController.m; sourceTree = "<group>"; };
+		7195419210CFEB9700B25682 /* NewRecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewRecordViewController.xib; path = Classes/NewRecordViewController.xib; sourceTree = "<group>"; };
+		71F8E82E10E3B2B300E5F24F /* segment_tools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = segment_tools.png; path = Resource/segment_tools.png; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* MineSweeperEver-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MineSweeperEver-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				717B15A810C774CC00DFB011 /* MediaPlayer.framework in Frameworks */,
+				7195400210CFC4B000B25682 /* AddressBook.framework in Frameworks */,
+				7195400410CFC4B000B25682 /* AudioToolbox.framework in Frameworks */,
+				7195400610CFC4B000B25682 /* CoreLocation.framework in Frameworks */,
+				7195400810CFC4B000B25682 /* QuartzCore.framework in Frameworks */,
+				7195406210CFC8CE00B25682 /* libAdMobDevice.a in Frameworks */,
+				7195406310CFC8CE00B25682 /* libAdMobSimulator.a in Frameworks */,
+				7195407910CFCB6400B25682 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				71953FF010CFC45C00B25682 /* AdMob */,
+				717B161C10C79F8F00DFB011 /* Addition */,
+				1D3623240D0F684500981E51 /* MineSweeperEverAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MineSweeperEverAppDelegate.m */,
+				717B15A410C7747500DFB011 /* OpenMovieViewController.h */,
+				717B15A510C7747500DFB011 /* OpenMovieViewController.m */,
+				717B15AB10C7753A00DFB011 /* NewGameViewController.h */,
+				717B15AC10C7753A00DFB011 /* NewGameViewController.m */,
+				717B15EA10C79C7900DFB011 /* GameStageViewController.h */,
+				717B15EB10C79C7900DFB011 /* GameStageViewController.m */,
+				717B161910C79F6600DFB011 /* MineCell.h */,
+				717B161A10C79F6600DFB011 /* MineCell.m */,
+				717DFAEB10C8208900F08EA3 /* StorageCenter.h */,
+				717DFAEC10C8208900F08EA3 /* StorageCenter.m */,
+				7133B8BD10CE8FA0005953C1 /* HighScoreViewController.h */,
+				7133B8BE10CE8FA0005953C1 /* HighScoreViewController.m */,
+				7195419010CFEB9700B25682 /* NewRecordViewController.h */,
+				7195419110CFEB9700B25682 /* NewRecordViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MineSweeperEver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MineSweeperEver_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71F8E82E10E3B2B300E5F24F /* segment_tools.png */,
+				7133B76410CE438C005953C1 /* cell_bomb_error.png */,
+				7133B76510CE438C005953C1 /* cell_bomb.png */,
+				7133B76610CE438C005953C1 /* cell_digged.png */,
+				7133B76810CE438D005953C1 /* cell_flag_error.png */,
+				7133B76910CE438D005953C1 /* cell_flag.png */,
+				7133B76A10CE438D005953C1 /* cell_normal.png */,
+				711D676810C8F57700AB5B9B /* snip.m4v */,
+				7195419210CFEB9700B25682 /* NewRecordViewController.xib */,
+				717DFA8E10C7FF8B00F08EA3 /* mineSweeperIcon57.png */,
+				717B15AD10C7753A00DFB011 /* NewGameViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				7133B8BF10CE8FA0005953C1 /* HighScoreViewController.xib */,
+				8D1107310486CEB800E47090 /* MineSweeperEver-Info.plist */,
+				7133B74910CE3B58005953C1 /* GameStageViewController.xib */,
+				7133B90410CEA0F0005953C1 /* default.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				717B15A710C774CC00DFB011 /* MediaPlayer.framework */,
+				7195400110CFC4B000B25682 /* AddressBook.framework */,
+				7195400310CFC4B000B25682 /* AudioToolbox.framework */,
+				7195400510CFC4B000B25682 /* CoreLocation.framework */,
+				7195400710CFC4B000B25682 /* QuartzCore.framework */,
+				7195407810CFCB6400B25682 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		717B161C10C79F8F00DFB011 /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				718F37B110CCB2EB00924BBB /* gtm */,
+				717B162610C79FCB00DFB011 /* UIViewAdditions.h */,
+				717B162710C79FCB00DFB011 /* UIViewAdditions.m */,
+				717B162810C79FCB00DFB011 /* UIKITAddition.h */,
+			);
+			name = Addition;
+			sourceTree = "<group>";
+		};
+		718F37B110CCB2EB00924BBB /* gtm */ = {
+			isa = PBXGroup;
+			children = (
+				718F37B210CCB2EB00924BBB /* Foundation */,
+				718F37BA10CCB2EB00924BBB /* GTM_Prefix.pch */,
+				718F37BB10CCB2EB00924BBB /* GTMDefines.h */,
+			);
+			path = gtm;
+			sourceTree = "<group>";
+		};
+		718F37B210CCB2EB00924BBB /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				718F37B710CCB2EB00924BBB /* GTMObjectSingleton.h */,
+				718F37B810CCB2EB00924BBB /* GTMRegex.h */,
+				718F37B910CCB2EB00924BBB /* GTMRegex.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		71953FF010CFC45C00B25682 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				7195406010CFC8CE00B25682 /* libAdMobDevice.a */,
+				7195406110CFC8CE00B25682 /* libAdMobSimulator.a */,
+				71953FF110CFC45C00B25682 /* AdMobDelegateProtocol.h */,
+				71953FF210CFC45C00B25682 /* AdMobView.h */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MineSweeperEver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MineSweeperEver" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineSweeperEver;
+			productName = MineSweeperEver;
+			productReference = 1D6058910D05DD3D006BFB54 /* MineSweeperEver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MineSweeperEver" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MineSweeperEver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				717B15AF10C7753A00DFB011 /* NewGameViewController.xib in Resources */,
+				717DFA8F10C7FF8B00F08EA3 /* mineSweeperIcon57.png in Resources */,
+				711D676910C8F57700AB5B9B /* snip.m4v in Resources */,
+				7133B74A10CE3B58005953C1 /* GameStageViewController.xib in Resources */,
+				7133B76B10CE438D005953C1 /* cell_bomb_error.png in Resources */,
+				7133B76C10CE438D005953C1 /* cell_bomb.png in Resources */,
+				7133B76D10CE438D005953C1 /* cell_digged.png in Resources */,
+				7133B76F10CE438D005953C1 /* cell_flag_error.png in Resources */,
+				7133B77010CE438D005953C1 /* cell_flag.png in Resources */,
+				7133B77110CE438D005953C1 /* cell_normal.png in Resources */,
+				7133B8C110CE8FA0005953C1 /* HighScoreViewController.xib in Resources */,
+				7133B90510CEA0F0005953C1 /* default.plist in Resources */,
+				7195419410CFEB9700B25682 /* NewRecordViewController.xib in Resources */,
+				71F8E82F10E3B2B300E5F24F /* segment_tools.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MineSweeperEverAppDelegate.m in Sources */,
+				717B15A610C7747500DFB011 /* OpenMovieViewController.m in Sources */,
+				717B15AE10C7753A00DFB011 /* NewGameViewController.m in Sources */,
+				717B15EC10C79C7900DFB011 /* GameStageViewController.m in Sources */,
+				717B161B10C79F6600DFB011 /* MineCell.m in Sources */,
+				717B162910C79FCB00DFB011 /* UIViewAdditions.m in Sources */,
+				717DFAED10C8208900F08EA3 /* StorageCenter.m in Sources */,
+				718F37BE10CCB2EB00924BBB /* GTMRegex.m in Sources */,
+				7133B8C010CE8FA0005953C1 /* HighScoreViewController.m in Sources */,
+				7195419310CFEB9700B25682 /* NewRecordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MineSweeperEver_Prefix.pch;
+				INFOPLIST_FILE = "MineSweeperEver-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/AdMob\"",
+				);
+				PRODUCT_NAME = MineSweeperEver;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MineSweeperEver_Prefix.pch;
+				INFOPLIST_FILE = "MineSweeperEver-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/AdMob\"",
+				);
+				PRODUCT_NAME = MineSweeperEver;
+			};
+			name = Release;
+		};
+		719541C710D0012000B25682 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: han xu";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Distribute;
+		};
+		719541C810D0012000B25682 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MineSweeperEver_Prefix.pch;
+				INFOPLIST_FILE = "MineSweeperEver-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/AdMob\"",
+				);
+				PRODUCT_NAME = MineSweeperEver;
+			};
+			name = Distribute;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: han xu (ESP4SY38E8)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: han xu (ESP4SY38E8)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MineSweeperEver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				719541C810D0012000B25682 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MineSweeperEver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				719541C710D0012000B25682 /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'MineSweeperEver' target in the 'MineSweeperEver' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "UIKITAddition.h"
+#endif
