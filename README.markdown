@@ -6,7 +6,7 @@ Date:   December 24, 2009
 
 游戏介绍
 ---------
-经典的扫雷iphone版本.
+经典的扫雷iphone版本.你可以在app store上免费下载 [Link](http://itunes.apple.com/us/app/minesweeperever/id345567798?mt=8)
 
 你可能可以学到什么
 ---------------
@@ -19,7 +19,7 @@ Date:   December 24, 2009
 
 在编译之前
 -----------
-由于资源文件比较多,请移步下载到当前目录并解压.
+由于资源文件比较多,请移步下载(*http://ixhan.com/kill/MineSweeperEver-Resource.zip*)到当前目录并解压.
 
 
 为什么写这个小游戏
