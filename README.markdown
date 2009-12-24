@@ -6,7 +6,9 @@ Date:   December 24, 2009
 
 游戏介绍
 ---------
-经典的扫雷iphone版本.你可以在app store上免费下载 [Link](http://itunes.apple.com/us/app/minesweeperever/id345567798?mt=8)
+MINE SWEEPER EVER是经典的扫雷iphone版本.你可以在app store上免费下载 [Link](http://itunes.apple.com/us/app/minesweeperever/id345567798?mt=8)
+
+![截图](http://ixhan.com/wp-content/uploads/2009/12/mainShot.jpg)
 
 你可能可以学到什么
 ---------------
@@ -19,7 +21,7 @@ Date:   December 24, 2009
 
 在编译之前
 -----------
-由于资源文件比较多,请移步下载(*http://ixhan.com/kill/MineSweeperEver-Resource.zip*)到当前目录并解压.
+由于资源文件比较多,开场视频是大头,还有许多策划时涂鸦使用的ps文件,请移步下载 `http://ixhan.com/kill/MineSweeperEver-Resource.zip` 到当前目录并解压.
 
 
 为什么写这个小游戏
